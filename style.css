@@ -1,0 +1,84 @@
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+h5{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    
+
+}
+
+
+
+body{
+    margin: 10px;
+    /*background-color: #f7f2f2;*/
+    background-image: url("https://previews.123rf.com/images/axenovan/axenovan1911/axenovan191100374/133727331-drawing-doodles-background-houseplants-cactuses-cactivector-illustration.jpg");
+    
+}
+
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.o1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   border-radius: 20px;
+   background-color: #ffffff;
+   padding: 30px;
+   margin:25px;
+   width:310px;
+   font-family: fantasy;
+   font-weight: 400;
+   
+}
+ 
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+a:link{
+    color: #5344daec;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f0a70b;
+    text-decoration: none;
+}
+
+
+.o1:hover{
+    transform: scale(1.1);
+}
+
+.g1 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
